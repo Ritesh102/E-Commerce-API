@@ -14,6 +14,10 @@ This is a full-stack e-commerce web application built as part of the Adapt NXT a
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+POSTMAN(API)
+I am adding the Postman's .json file which will be named **Postman API Collection** , which contains all the necesssary API required for the functionality of the application(Safer to remove this file from the folder ter adding the .json file into Postman to import all the API's)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Key Features**
 
 This project supports two user roles — Customers and Admins — each with their own set of permissions:
