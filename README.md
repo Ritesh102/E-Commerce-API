@@ -36,21 +36,7 @@ This role-based access ensures that customers focus on shopping, while admins ma
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-** Project Structure**
-
-ecommerce-api/
-├── app.js # Express app config
-├── server.js # Server startup and MongoDB connection
-├── .env # Environment variables
-├── routes/ # API routes (auth, products, cart, orders)
-├── controllers/ # Business logic
-├── models/ # Mongoose models
-├── middlewares/ # JWT + Role middlewares
-├── frontend/ # Static frontend
-│ ├── index.html # UI with all buttons and forms
-│ └── script.js # Frontend logic with API calls
-└── README.md # This file
-
+<pre><code>ecommerce-api/ ├── app.js # Express app config ├── server.js # Server startup and MongoDB connection ├── .env # Environment variables ├── routes/ # API routes (auth, products, cart, orders) ├── controllers/ # Business logic for each route ├── models/ # Mongoose schemas and models ├── middlewares/ # JWT and role-based access control ├── frontend/ # Static frontend UI │ ├── index.html # UI with all forms and buttons │ └── script.js # Frontend logic with API calls ├── postman/ # Postman collection for API testing │ └── Simple E-commerce API.postman_collection.json └── README.md # Project documentation </code></pre>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  **Getting Started Locally**
