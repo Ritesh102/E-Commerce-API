@@ -13,9 +13,16 @@ This is a full-stack e-commerce web application built as part of the Adapt NXT a
 - **Deployment:** Can be hosted on Render, Railway, or locally
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Postman (API)
 
-POSTMAN(API)
-I am adding the Postman's .json file which will be named **Postman API Collection** , which contains all the necesssary API required for the functionality of the application(Safer to remove this file from the folder ter adding the .json file into Postman to import all the API's)
+This project includes a Postman API collection named:
+
+**`E-Commerce API.json`**
+
+You can import it into Postman to test all authentication, product, cart, and order routes.
+
+> ⚠️ **Tip:** After importing the collection, you may safely delete the `.json` file from your local project folder if needed.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Key Features**
